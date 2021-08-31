@@ -68,3 +68,178 @@ ul.social_section_1info a span.fa {
 .img-fluid {
   width: 20em;
 }
+
+/*-- about --*/
+
+.about{
+	position: relative;
+}
+h3.position {
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: rgb(124, 127, 172);
+    font-family: auto;
+    margin-top: 2rem;
+}
+.about-right h4.main {
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 1em 0;
+}
+.about-right {
+    padding: 3em;
+}
+.about-right p {
+    font-size: 16px;
+    color: #777;
+}
+a.abt-btn {
+    background: #2a5298;
+    border: 2px solid #2a5298;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 10px 25px;
+    display: inline-block;
+    margin-top: 2em;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.about-right-inner h4 {
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+    line-height: 38px;
+}
+.about-right-inner p {
+    line-height: 28px;
+}
+.progress-one .progress {
+    height: 0.3rem;
+}
+.progress {
+    font-size: 0.75em;
+    line-height: 8em;
+    text-align: center;
+    background-color: #d6d9da;
+    border-radius: 0.25rem;
+    margin-bottom: 1em;
+}
+.about-right-inner h4.progress-tittle {
+    color: #888;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+    letter-spacing: 1px;
+    line-height: inherit;
+}
+
+/*-- //about --*/
+
+
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services .icon-box {
+  padding: 20px 15px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.2);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  text-align: center;
+  z-index: 1;
+}
+
+.services .icon-box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 0;
+  transition: ease-in-out 0.3s;
+  z-index: -1;
+}
+
+.services .icon-box:hover::before {
+  background: #d43076;
+  height: 100%;
+  border-radius: 0px;
+}
+
+.services .icon {
+  margin: 0 auto 30px auto;
+  padding-top: 10px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: #d43076;
+  transition: all 0.3s ease-in-out;
+}
+
+.services .icon i {
+  font-size: 36px;
+  line-height: 1;
+  color: #fff;
+}
+
+.services .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.services .title a {
+  color: #111;
+}
+
+.services .description {
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.services .icon-box:hover .title a, .services .icon-box:hover .description {
+  color: #fff;
+}
+
+.services .icon-box:hover .icon {
+  background: #fff;
+}
+
+.services .icon-box:hover .icon i {
+  color: #d43076;
+}
+
+@media (max-width: 768px) {
+  .services .icon-box::before {
+    bottom: 60%;
+  }
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  background: #e9e8e6;
+  padding: 30px 0;
+  color: #222222;
+  font-size: 14px;
+  text-align: center;
+}
+
+#footer .credits {
+  padding-top: 5px;
+  font-size: 13px;
+}
+
+#footer .credits a {
+  color: #34b7a7;
+}
